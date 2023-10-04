@@ -1,0 +1,71 @@
+/* body */
+body{
+    background-color: #FFFFFF;
+}
+
+/* h1 */
+h1 {
+    color: var(--color-title);
+}
+
+/* p */
+p {
+    color: var(--color-text);
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text);
+    margin:0 60px ;
+    padding: 20px;
+}
+
+/* logo */
+.logo {
+    font-size: 1.4rem;
+}
+
+/* nav-bar */
+nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-right: 20px;
+    margin-right: 5px;
+}
+
+nav li a {
+    color: var(--color-text);
+}
+
+/* button */
+
+button {
+    background-color: var(--color-button);
+    color: var(--color-first);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* main */
+
+.div-container{
+    display: flex;
+    margin: 20px 60px;
+}
+
+.section-container {
+    flex: 1;
+    padding: 20px;    
+    border: 1px solid darkblue;
+    margin: 0 40px 0 0;
+    
+}
