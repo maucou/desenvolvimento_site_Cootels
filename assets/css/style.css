@@ -6,11 +6,15 @@ body{
 /* h1 */
 h1 {
     color: var(--color-title);
+    font-size: var(--h1-font-size);
+    line-height: 1.5;
 }
 
 /* p */
 p {
     color: var(--color-text);
+    font-size: var(--p-font-size);
+    line-height: 1.7;
 }
 
 /* header */
@@ -57,17 +61,20 @@ button {
 
 /* main */
 
-/* section */
+/* section 1 */
 
 .div-container{
     display: flex;
     margin: 20px 0 0 60px;
+    
+
 }
 
-.section-container {
+.section-container1 {
     flex: 1;
     padding: 5.9375rem 1.25rem;    
     /* border: 1px solid darkblue; */
+    max-width: 100%;
 
        
 }
@@ -82,4 +89,34 @@ section#section-img1 {
 
 #img-img1 {
     width: 590px;
+    max-width: 100%;
+}
+
+/* section 1 */
+
+.section-container2 {
+   
+    padding: 5.9375rem 1.25rem;    
+    /* border: 1px solid darkblue; */
+
+       
+}
+
+.flex2 {
+    
+    padding: 5.9375rem 1.25rem;
+    /* border: 1px solid blueviolet; */
+    width: 300px;
+} 
+#section-img2 {
+    width: 400px;
+}
+
+#img-img2 {
+    width: 300px;
+}
+
+#section-text2 {
+    width: 600px;
+    
 }

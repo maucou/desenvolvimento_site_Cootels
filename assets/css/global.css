@@ -23,8 +23,8 @@
 :root{
     --heading-font: 'Raleway';
     --body-font: 'Open Sans';
-    --h1-font-size: 2rem;
-    --h3-font-size: 3rem;
+    --h1-font-size: 2.1875rem;
+    --p-font-size: 1.125rem;
     --small-font-size: 0.8125rem;
     --font-weight: 600;
 }
