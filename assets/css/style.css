@@ -1,6 +1,7 @@
 /* body */
 body{
     background-color: #FFFFFF;
+    font-family: var(--body-font);
 }
 
 /* h1 */
@@ -79,7 +80,7 @@ button {
        
 }
 
-section#section-text1 {
+section.section-text1 {
     margin-right: 40px;
 }
 
@@ -92,7 +93,7 @@ section#section-img1 {
     max-width: 100%;
 }
 
-/* section 1 */
+/* section 2 */
 
 .section-container2 {
    
@@ -119,4 +120,19 @@ section#section-img1 {
 #section-text2 {
     width: 600px;
     
+}
+
+/* section 3 */
+
+#img-img3 {
+    width: 250px;
+}
+
+
+
+.div-container-centralizado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
